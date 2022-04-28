@@ -1,0 +1,49 @@
+body{
+    margin: 0 auto;
+    border: 0;
+    padding: 10%;
+}
+a {
+    text-decoration:none;
+    color: black;
+}
+ul, li{
+    padding: 0;
+    list-style: none;
+}
+.main-title{
+    padding: 0px 100px 100px 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.genre{
+    font-size: 15px;
+}
+.title {
+    padding: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* grid 이용해서 한 번에 4개 보여주기 - Home.js*/
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    place-items: center;
+    row-gap: 100px;
+}
+/* 안의 내용물 가운데정렬  - Movie.js*/
+.main-text{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 230px;
+    min-height: 650px;
+    box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.5);
+}
+/* hover 시 */
+.main-text:hover{
+    transform: scale( 1.1, 1.1 );
+    transition: transform .3s;
+}
