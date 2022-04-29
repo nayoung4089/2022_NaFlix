@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/2022_movie_part1/static/css/main.bf9b8083.css",
-    "main.js": "/2022_movie_part1/static/js/main.e2c185a6.js",
-    "static/js/787.ab6a0a7d.chunk.js": "/2022_movie_part1/static/js/787.ab6a0a7d.chunk.js",
-    "index.html": "/2022_movie_part1/index.html",
-    "main.bf9b8083.css.map": "/2022_movie_part1/static/css/main.bf9b8083.css.map",
-    "main.e2c185a6.js.map": "/2022_movie_part1/static/js/main.e2c185a6.js.map",
-    "787.ab6a0a7d.chunk.js.map": "/2022_movie_part1/static/js/787.ab6a0a7d.chunk.js.map"
+    "main.css": "/2022_NaFlix/static/css/main.ca9d586a.css",
+    "main.js": "/2022_NaFlix/static/js/main.e593e45f.js",
+    "static/js/787.ab6a0a7d.chunk.js": "/2022_NaFlix/static/js/787.ab6a0a7d.chunk.js",
+    "index.html": "/2022_NaFlix/index.html",
+    "main.ca9d586a.css.map": "/2022_NaFlix/static/css/main.ca9d586a.css.map",
+    "main.e593e45f.js.map": "/2022_NaFlix/static/js/main.e593e45f.js.map",
+    "787.ab6a0a7d.chunk.js.map": "/2022_NaFlix/static/js/787.ab6a0a7d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf9b8083.css",
-    "static/js/main.e2c185a6.js"
+    "static/css/main.ca9d586a.css",
+    "static/js/main.e593e45f.js"
   ]
 }
