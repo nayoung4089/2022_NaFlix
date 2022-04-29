@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/2022_movie_part1.git/static/css/main.bf9b8083.css",
-    "main.js": "/2022_movie_part1.git/static/js/main.36c2cb1a.js",
-    "static/js/787.ab6a0a7d.chunk.js": "/2022_movie_part1.git/static/js/787.ab6a0a7d.chunk.js",
-    "index.html": "/2022_movie_part1.git/index.html",
-    "main.bf9b8083.css.map": "/2022_movie_part1.git/static/css/main.bf9b8083.css.map",
-    "main.36c2cb1a.js.map": "/2022_movie_part1.git/static/js/main.36c2cb1a.js.map",
-    "787.ab6a0a7d.chunk.js.map": "/2022_movie_part1.git/static/js/787.ab6a0a7d.chunk.js.map"
+    "main.css": "/2022_movie_part1/static/css/main.bf9b8083.css",
+    "main.js": "/2022_movie_part1/static/js/main.341ca7ad.js",
+    "static/js/787.ab6a0a7d.chunk.js": "/2022_movie_part1/static/js/787.ab6a0a7d.chunk.js",
+    "index.html": "/2022_movie_part1/index.html",
+    "main.bf9b8083.css.map": "/2022_movie_part1/static/css/main.bf9b8083.css.map",
+    "main.341ca7ad.js.map": "/2022_movie_part1/static/js/main.341ca7ad.js.map",
+    "787.ab6a0a7d.chunk.js.map": "/2022_movie_part1/static/js/787.ab6a0a7d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf9b8083.css",
-    "static/js/main.36c2cb1a.js"
+    "static/js/main.341ca7ad.js"
   ]
 }
