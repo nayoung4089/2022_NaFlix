@@ -6,11 +6,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path ="/movie/:id" element={<Detail />} /> 
-        {/* 이 id 값을 Detail 함수에서 받기 위해 useParams를 사용한 것. */}
-      </Routes>
-      <Routes>
-        <Route path ="/" element={<Home />} />
+        <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
+        <Route path="/movie/:id" element={<Detail />} />
       </Routes>
     </Router>
   )
