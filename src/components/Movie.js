@@ -5,7 +5,7 @@ import "../components/Home.css";
 function Movie ({id, poster_path}){
     return (
       <div class="main-text">
-        <Link to={`/movie/${id}`}>
+        <Link to={`/2022_NaFlix/movie/${id}`}>
           <img src={`https://image.tmdb.org/t/p/w200${poster_path}`} height="300px" width="200px"/>
         </Link>
       </div>
