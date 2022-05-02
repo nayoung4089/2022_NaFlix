@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/2022_NaFlix/static/css/main.8103bfaa.css",
-    "main.js": "/2022_NaFlix/static/js/main.6dd2cdc4.js",
+    "main.js": "/2022_NaFlix/static/js/main.43fe92db.js",
     "static/js/787.ab6a0a7d.chunk.js": "/2022_NaFlix/static/js/787.ab6a0a7d.chunk.js",
     "index.html": "/2022_NaFlix/index.html",
     "main.8103bfaa.css.map": "/2022_NaFlix/static/css/main.8103bfaa.css.map",
-    "main.6dd2cdc4.js.map": "/2022_NaFlix/static/js/main.6dd2cdc4.js.map",
+    "main.43fe92db.js.map": "/2022_NaFlix/static/js/main.43fe92db.js.map",
     "787.ab6a0a7d.chunk.js.map": "/2022_NaFlix/static/js/787.ab6a0a7d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8103bfaa.css",
-    "static/js/main.6dd2cdc4.js"
+    "static/js/main.43fe92db.js"
   ]
 }
