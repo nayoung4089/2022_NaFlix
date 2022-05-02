@@ -13,21 +13,26 @@ function Detail(){
     const [similars, setSimilars] = useState([]);
     const { id }= useParams();
     const getMovieDetails = async() => {
-        const json = await(await fetch(`https://api.themoviedb.org/3/movie/${id}${video}?api_key=${API_KEY}&language=ko-KR`)).json();
+        const json = await(await fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${API_KEY}&language=ko-KR`)).json();
         setDetails(json);
         setLoading(false);
     }
-    const getSimilarDetails = async(similar, setSimilars) => {
-        const json = await(await fetch(`https://api.themoviedb.org/3/movie/${id}/${similar}?api_key=${API_KEY}&language=ko-KR`)).json();
-        console.log(json.results);
+    const getSimilarDetails = async() => {
+        const json = await(await fetch(`https://api.themoviedb.org/3/movie/${id}/similar?api_key=${API_KEY}&language=ko-KR`)).json();
         setSimilars(json.results);
+        setLoading(false);
+    }
+    const geVideoDetails = async() => {
+        const json = await(await fetch(`https://api.themoviedb.org/3/movie/${id}/videos?api_key=${API_KEY}&language=ko-KR`)).json();
+        setVideo(json.results[0].key);
         setLoading(false);
     }
     useEffect(()=> {
         getMovieDetails();
-        getSimilarDetails("videos",setVideo);
-        getSimilarDetails("similar", setSimilars);
+        geVideoDetails();
+        getSimilarDetails();
     }, [id]) // id가 변할 때마다 다시 불러조~ 이말임
+    console.log(video);
     return (
         <div class="detail">
             {loading ? <h1>Loading...</h1> : 
@@ -44,7 +49,7 @@ function Detail(){
                 <div class="video-box">
                 <iframe
                 class="video"
-                src={`https://www.youtube.com/embed/${video[0].key}?autoplay=1&mute=1&loop=1&modestbranding=1&playlist=${video[0].key}&controls=0`}
+                src={`https://www.youtube.com/embed/${video}?autoplay=1&mute=1&loop=1&modestbranding=1&playlist=${video}&controls=0`}
                 frameBorder="0"
                 allow="accelerometer; autoPlay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -84,7 +89,6 @@ function Detail(){
             </div>
             }
         </div>
-
     );
 }
 export default Detail;
